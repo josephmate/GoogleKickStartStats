@@ -1,0 +1,462 @@
+[
+    {
+        "year": 2020,
+        "round": "E",
+        "number": 1,
+        "title": "Longest Arithmetic",
+        "solvedTest2": 8888,
+        "solvedTest1": 270,
+        "didNotSolve": 2111,
+        "totalSubmitters": 11401
+    },
+    {
+        "year": 2020,
+        "round": "E",
+        "number": 2,
+        "title": "High Buildings",
+        "solvedTest2": 2345,
+        "solvedTest1": 352,
+        "didNotSolve": 3138,
+        "totalSubmitters": 11401
+    },
+    {
+        "year": 2020,
+        "round": "E",
+        "number": 3,
+        "title": "Toys",
+        "solvedTest2": 288,
+        "solvedTest1": 756,
+        "didNotSolve": 977,
+        "totalSubmitters": 11401
+    },
+    {
+        "year": 2020,
+        "round": "E",
+        "number": 4,
+        "title": "Golden Stone",
+        "solvedTest2": 77,
+        "solvedTest1": 36,
+        "didNotSolve": 132,
+        "totalSubmitters": 11401
+    },
+    {
+        "year": 2020,
+        "round": "D",
+        "number": 1,
+        "title": "Record Breaker",
+        "solvedTest2": 7799,
+        "solvedTest1": 343,
+        "didNotSolve": 3469,
+        "totalSubmitters": 11704
+    },
+    {
+        "year": 2020,
+        "round": "D",
+        "number": 2,
+        "title": "Alien Piano",
+        "solvedTest2": 3929,
+        "solvedTest1": 661,
+        "didNotSolve": 2228,
+        "totalSubmitters": 11704
+    },
+    {
+        "year": 2020,
+        "round": "D",
+        "number": 3,
+        "title": "Beauty of tree",
+        "solvedTest2": 602,
+        "solvedTest1": 1040,
+        "didNotSolve": 590,
+        "totalSubmitters": 11704
+    },
+    {
+        "year": 2020,
+        "round": "D",
+        "number": 4,
+        "title": "Locked Doors",
+        "solvedTest2": 112,
+        "solvedTest1": 1958,
+        "didNotSolve": 484,
+        "totalSubmitters": 11704
+    },
+    {
+        "year": 2020,
+        "round": "C",
+        "number": 1,
+        "title": "Countdown",
+        "solvedTest2": 9017,
+        "solvedTest1": 808,
+        "didNotSolve": 3594,
+        "totalSubmitters": 13650
+    },
+    {
+        "year": 2020,
+        "round": "C",
+        "number": 2,
+        "title": "Stable Wall",
+        "solvedTest2": 2632,
+        "solvedTest1": 173,
+        "didNotSolve": 933,
+        "totalSubmitters": 13650
+    },
+    {
+        "year": 2020,
+        "round": "C",
+        "number": 3,
+        "title": "Perfect Subarray",
+        "solvedTest2": 685,
+        "solvedTest1": 5712,
+        "didNotSolve": 1965,
+        "totalSubmitters": 13650
+    },
+    {
+        "year": 2020,
+        "round": "C",
+        "number": 4,
+        "title": "Candies",
+        "solvedTest2": 655,
+        "solvedTest1": 159,
+        "didNotSolve": 3149,
+        "totalSubmitters": 13650
+    },
+    {
+        "year": 2020,
+        "round": "B",
+        "number": 1,
+        "title": "Bike Tour",
+        "solvedTest2": 9267,
+        "solvedTest1": 36,
+        "didNotSolve": 909,
+        "totalSubmitters": 10300
+    },
+    {
+        "year": 2020,
+        "round": "B",
+        "number": 2,
+        "title": "Bus Routes",
+        "solvedTest2": 5811,
+        "solvedTest1": 1143,
+        "didNotSolve": 1233,
+        "totalSubmitters": 10300
+    },
+    {
+        "year": 2020,
+        "round": "B",
+        "number": 3,
+        "title": "Robot Path Decoding",
+        "solvedTest2": 2733,
+        "solvedTest1": 2019,
+        "didNotSolve": 678,
+        "totalSubmitters": 10300
+    },
+    {
+        "year": 2020,
+        "round": "B",
+        "number": 4,
+        "title": "Wandering Robot",
+        "solvedTest2": 135,
+        "solvedTest1": 1616,
+        "didNotSolve": 737,
+        "totalSubmitters": 10300
+    },
+    {
+        "year": 2020,
+        "round": "A",
+        "number": 1,
+        "title": "Allocation",
+        "solvedTest2": 10276,
+        "solvedTest1": 576,
+        "didNotSolve": 2750,
+        "totalSubmitters": 13700
+    },
+    {
+        "year": 2020,
+        "round": "A",
+        "number": 2,
+        "title": "Plates",
+        "solvedTest2": 2941,
+        "solvedTest1": 1114,
+        "didNotSolve": 2075,
+        "totalSubmitters": 13700
+    },
+    {
+        "year": 2020,
+        "round": "A",
+        "number": 3,
+        "title": "Workout",
+        "solvedTest2": 1925,
+        "solvedTest1": 3326,
+        "didNotSolve": 1074,
+        "totalSubmitters": 13700
+    },
+    {
+        "year": 2020,
+        "round": "A",
+        "number": 4,
+        "title": "Bundling",
+        "solvedTest2": 1032,
+        "solvedTest1": 119,
+        "didNotSolve": 1511,
+        "totalSubmitters": 13700
+    },
+    {
+        "year": 2019,
+        "round": "H",
+        "number": 1,
+        "title": "H-index",
+        "solvedTest2": 877,
+        "solvedTest1": 1207,
+        "didNotSolve": 1028,
+        "totalSubmitters": 3350
+    },
+    {
+        "year": 2019,
+        "round": "H",
+        "number": 2,
+        "title": "Diagonal Puzzle",
+        "solvedTest2": 124,
+        "solvedTest1": 57,
+        "didNotSolve": 498,
+        "totalSubmitters": 3350
+    },
+    {
+        "year": 2019,
+        "round": "H",
+        "number": 3,
+        "title": "Elevanagram",
+        "solvedTest2": 184,
+        "solvedTest1": 335,
+        "didNotSolve": 750,
+        "totalSubmitters": 3350
+    },
+    {
+        "year": 2019,
+        "round": "G",
+        "number": 1,
+        "title": "Book Reading",
+        "solvedTest2": 1067,
+        "solvedTest1": 2278,
+        "didNotSolve": 1662,
+        "totalSubmitters": 5250
+    },
+    {
+        "year": 2019,
+        "round": "G",
+        "number": 2,
+        "title": "The Equation",
+        "solvedTest2": 569,
+        "solvedTest1": 1048,
+        "didNotSolve": 1141,
+        "totalSubmitters": 5250
+    },
+    {
+        "year": 2019,
+        "round": "G",
+        "number": 3,
+        "title": "Shifts",
+        "solvedTest2": 291,
+        "solvedTest1": 875,
+        "didNotSolve": 873,
+        "totalSubmitters": 5250
+    },
+    {
+        "year": 2019,
+        "round": "F",
+        "number": 1,
+        "title": "Flattening",
+        "solvedTest2": 320,
+        "solvedTest1": 67,
+        "didNotSolve": 1948,
+        "totalSubmitters": 3350
+    },
+    {
+        "year": 2019,
+        "round": "F",
+        "number": 2,
+        "title": "Teach Me",
+        "solvedTest2": 179,
+        "solvedTest1": 1160,
+        "didNotSolve": 679,
+        "totalSubmitters": 3350
+    },
+    {
+        "year": 2019,
+        "round": "E",
+        "number": 1,
+        "title": "Cherries Mesh",
+        "solvedTest2": 1570,
+        "solvedTest1": 802,
+        "didNotSolve": 2823,
+        "totalSubmitters": 6350
+    },
+    {
+        "year": 2019,
+        "round": "E",
+        "number": 2,
+        "title": "Code-Eat Switcher",
+        "solvedTest2": 249,
+        "solvedTest1": 371,
+        "didNotSolve": 1387,
+        "totalSubmitters": 6350
+    },
+    {
+        "year": 2019,
+        "round": "E",
+        "number": 3,
+        "title": "Street Checkers",
+        "solvedTest2": 435,
+        "solvedTest1": 995,
+        "didNotSolve": 2021,
+        "totalSubmitters": 6350
+    },
+    {
+        "year": 2019,
+        "round": "D",
+        "number": 1,
+        "title": "X or What?",
+        "solvedTest2": 450,
+        "solvedTest1": 1199,
+        "didNotSolve": 2098,
+        "totalSubmitters": 4400
+    },
+    {
+        "year": 2019,
+        "round": "D",
+        "number": 2,
+        "title": "Latest Guests",
+        "solvedTest2": 110,
+        "solvedTest1": 790,
+        "didNotSolve": 773,
+        "totalSubmitters": 4400
+    },
+    {
+        "year": 2019,
+        "round": "D",
+        "number": 3,
+        "title": "Food Stalls",
+        "solvedTest2": 52,
+        "solvedTest1": 743,
+        "didNotSolve": 950,
+        "totalSubmitters": 4400
+    },
+    {
+        "year": 2019,
+        "round": "C",
+        "number": 1,
+        "title": "Wiggle Walk",
+        "solvedTest2": 569,
+        "solvedTest1": 1433,
+        "didNotSolve": 1029,
+        "totalSubmitters": 3100
+    },
+    {
+        "year": 2019,
+        "round": "C",
+        "number": 2,
+        "title": "Circuit Board",
+        "solvedTest2": 553,
+        "solvedTest1": 221,
+        "didNotSolve": 468,
+        "totalSubmitters": 3100
+    },
+    {
+        "year": 2019,
+        "round": "C",
+        "number": 3,
+        "title": "Catch Some",
+        "solvedTest2": 161,
+        "solvedTest1": 66,
+        "didNotSolve": 255,
+        "totalSubmitters": 3100
+    },
+    {
+        "year": 2019,
+        "round": "B",
+        "number": 1,
+        "title": "Building Palindromes",
+        "solvedTest2": 1011,
+        "solvedTest1": 1237,
+        "didNotSolve": 315,
+        "totalSubmitters": 2650
+    },
+    {
+        "year": 2019,
+        "round": "B",
+        "number": 2,
+        "title": "Energy Stones",
+        "solvedTest2": 65,
+        "solvedTest1": 58,
+        "didNotSolve": 1127,
+        "totalSubmitters": 2650
+    },
+    {
+        "year": 2019,
+        "round": "B",
+        "number": 3,
+        "title": "Diverse Subarray",
+        "solvedTest2": 81,
+        "solvedTest1": 619,
+        "didNotSolve": 442,
+        "totalSubmitters": 2650
+    },
+    {
+        "year": 2019,
+        "round": "A",
+        "number": 1,
+        "title": "Training",
+        "solvedTest2": 2112,
+        "solvedTest1": 1168,
+        "didNotSolve": 1337,
+        "totalSubmitters": 4900
+    },
+    {
+        "year": 2019,
+        "round": "A",
+        "number": 2,
+        "title": "Parcels",
+        "solvedTest2": 137,
+        "solvedTest1": 1009,
+        "didNotSolve": 848,
+        "totalSubmitters": 4900
+    },
+    {
+        "year": 2019,
+        "round": "A",
+        "number": 3,
+        "title": "Contention",
+        "solvedTest2": 2,
+        "solvedTest1": 8,
+        "didNotSolve": 1031,
+        "totalSubmitters": 4900
+    },
+    {
+        "year": 2019,
+        "round": "Practice",
+        "number": 1,
+        "title": "Number Guessing",
+        "solvedTest2": 1495,
+        "solvedTest1": 164,
+        "didNotSolve": 695,
+        "totalSubmitters": 2500
+    },
+    {
+        "year": 2019,
+        "round": "Practice",
+        "number": 2,
+        "title": "Mural",
+        "solvedTest2": 875,
+        "solvedTest1": 283,
+        "didNotSolve": 264,
+        "totalSubmitters": 2500
+    },
+    {
+        "year": 2019,
+        "round": "Practice",
+        "number": 3,
+        "title": "Kickstart Alarm",
+        "solvedTest2": 154,
+        "solvedTest1": 417,
+        "didNotSolve": 275,
+        "totalSubmitters": 2500
+    }
+]
