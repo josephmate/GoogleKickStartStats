@@ -1,8 +1,152 @@
 <html>
-    <head>
 
-    </head>
-    <body>
-        
-    </body>
+<head>
+    <style>
+        table {
+            width: 60%;
+            border-collapse: collapse;
+            margin: 0px auto;
+        }
+
+        /* Zebra striping */
+
+        tr:nth-of-type(odd) {
+            background: #eee;
+        }
+
+        th {
+            background: #333;
+            color: white;
+            font-weight: bold;
+            cursor: s-resize;
+            background-repeat: no-repeat;
+            background-position: 3% center;
+        }
+
+        td,
+        th {
+            padding: 6px;
+            border: 1px solid #ccc;
+            text-align: left;
+        }
+
+        th.des:after {
+            content: "\21E3";
+        }
+
+        th.aes:after {
+            content: "\21E1";
+        }
+    </style>
+</head>
+
+<body>
+    <div id="problemStats">
+    </div>
+
+    <script src="https://d3js.org/d3.v4.js"></script>
+    <script>
+        d3.json("data/problem_stats.json", function (err, data) {
+            console.log("hi");
+            
+            // create derived data
+            data.forEach(function (row) {
+                /*
+                    {
+                        "year": 2020,
+                        "round": "E",
+                        "number": 1,
+                        "title": "Longest Arithmetic",
+                        "solvedTest2": 8888,
+                        "solvedTest1": 270,
+                        "didNotSolve": 2111,
+                        "totalSubmitters": 11401
+                    },
+                */
+                row.solvedTest2Percent = 100 * row.solvedTest2 / row.totalSubmitters;
+                row.solvedAtLeast1Percent = 100 * (row.solvedTest2+row.solvedTest1) / row.totalSubmitters;
+                row.solvedTest1Percent = 100 * row.solvedTest1 / row.totalSubmitters;
+                row.didNotSolvePercent = 100 * row.didNotSolve / row.totalSubmitters;
+            });
+
+            //********* - START TABLE - *********
+
+            var sortAscending = true;
+            var table = d3.select('#problemStats').append('table');
+            var titles = ["year", "round", "number", "title",
+                "solvedAtLeast1Percent", "solvedTest2Percent", "solvedTest1Percent", "didNotSolvePercent",
+                "solvedTest2", "solvedTest1", "didNotSolve", "totalSubmitters"];
+            var headers = table.append('thead').append('tr')
+                .selectAll('th')
+                .data(titles).enter()
+                .append('th')
+                .text(function (d) {
+                    return d
+                })
+                .on('click', function (d) {
+                    headers.attr('class', 'header');
+                    if (d == "round" || d == "title") { //these keys sort alphabetically
+                        // sorting alphabetically");
+                        if (sortAscending) {
+                            rows.sort(function (a, b) {
+                                return d3.ascending(a[d], b[d]);
+                            });
+                            sortAscending = false;
+                            this.className = 'aes';
+                        } else {
+                            rows.sort(function (a, b) {
+                                return d3.descending(a[d], b[d]);
+                            });
+                            sortAscending = true;
+                            this.className = 'des';
+                        }
+                    } else {
+                        if (sortAscending) {
+                            //all other keys sort numerically including time
+                            rows.sort(function (a, b) {
+                                return b[d] - a[d];
+                            });
+                            sortAscending = false;
+                            this.className = 'aes';
+                        } else {
+                            rows.sort(function (a, b) {
+                                return a[d] - b[d];
+                            });
+                            sortAscending = true;
+                            this.className = 'des';
+                        }
+                    }
+                });
+
+            var rows = table.append('tbody').selectAll('tr')
+                .data(data).enter()
+                .append('tr');
+            rows.selectAll('td')
+                .data(function (d) {
+                    return titles.map(function (key, i) {
+                        return {
+                            'value': d[key],
+                            'name': d
+                        };
+                    });
+                }).enter()
+                .append('td')
+                .attr('data-th', function (d) {
+                    return d.name;
+                })
+                .text(function (d) {
+                    console.log("typeof(" + d.value + "): " + typeof (d.value));
+                    if (typeof (d.value) == "object") {
+                        console.log("Yippee it's an object");
+                        return timeformat(d.value)
+                    } else {
+                        return d.value
+                    }
+                });
+
+            //********* - END TABLE - *********
+        });
+    </script>
+</body>
+
 </html>
