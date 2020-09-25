@@ -458,5 +458,245 @@
         "solvedTest1": 417,
         "didNotSolve": 275,
         "totalSubmitters": 2500
+    },
+    {
+        "year": 2018,
+        "round": "H",
+        "number": 1,
+        "title": "Big Buttons",
+        "solvedTest2": 1476,
+        "solvedTest1": 211,
+        "didNotSolve": 31,
+        "totalSubmitters": 1800
+    },
+    {
+        "year": 2018,
+        "round": "H",
+        "number": 2,
+        "title": "Mural",
+        "solvedTest2": 1014,
+        "solvedTest1": 324,
+        "didNotSolve": 90,
+        "totalSubmitters": 1800
+    },
+    {
+        "year": 2018,
+        "round": "H",
+        "number": 3,
+        "title": "Let Me Count The Ways",
+        "solvedTest2": 327,
+        "solvedTest1": 143,
+        "didNotSolve": 187,
+        "totalSubmitters": 1800
+    },
+    {
+        "year": 2018,
+        "round": "G",
+        "number": 1,
+        "title": "Product Triplets",
+        "solvedTest2": 498,
+        "solvedTest1": 1354,
+        "didNotSolve": 5,
+        "totalSubmitters": 1900
+    },
+    {
+        "year": 2018,
+        "round": "G",
+        "number": 2,
+        "title": "Combining Classes",
+        "solvedTest2": 174,
+        "solvedTest1": 143,
+        "didNotSolve": 507,
+        "totalSubmitters": 1900
+    },
+    {
+        "year": 2018,
+        "round": "G",
+        "number": 3,
+        "title": "Cave Escape",
+        "solvedTest2": 20,
+        "solvedTest1": 172,
+        "didNotSolve": 128,
+        "totalSubmitters": 1900
+    },
+    {
+        "year": 2018,
+        "round": "F",
+        "number": 1,
+        "title": "Common Anagrams",
+        "solvedTest2": 1467,
+        "solvedTest1": 74,
+        "didNotSolve": 1,
+        "totalSubmitters": 1550
+    },
+    {
+        "year": 2018,
+        "round": "F",
+        "number": 2,
+        "title": "Specializing Villages",
+        "solvedTest2": 121,
+        "solvedTest1": 349,
+        "didNotSolve": 135,
+        "totalSubmitters": 1550
+    },
+    {
+        "year": 2018,
+        "round": "F",
+        "number": 3,
+        "title": "Palindromic Sequence",
+        "solvedTest2": 2,
+        "solvedTest1": 14,
+        "didNotSolve": 227,
+        "totalSubmitters": 1550
+    },
+    {
+        "year": 2018,
+        "round": "E",
+        "number": 1,
+        "title": "Board Game",
+        "solvedTest2": 13,
+        "solvedTest1": 262,
+        "didNotSolve": 324,
+        "totalSubmitters": 2350
+    },
+    {
+        "year": 2018,
+        "round": "E",
+        "number": 2,
+        "title": "Milk Tea",
+        "solvedTest2": 465,
+        "solvedTest1": 888,
+        "didNotSolve": 283,
+        "totalSubmitters": 2350
+    },
+    {
+        "year": 2018,
+        "round": "E",
+        "number": 3,
+        "title": "Yogurt",
+        "solvedTest2": 2028,
+        "solvedTest1": 288,
+        "didNotSolve": 11,
+        "totalSubmitters": 2350
+    },
+    {
+        "year": 2018,
+        "round": "D",
+        "number": 1,
+        "title": "Candies",
+        "solvedTest2": 180,
+        "solvedTest1": 495,
+        "didNotSolve": 96,
+        "totalSubmitters": 900
+    },
+    {
+        "year": 2018,
+        "round": "D",
+        "number": 2,
+        "title": "Paragliding",
+        "solvedTest2": 262,
+        "solvedTest1": 363,
+        "didNotSolve": 74,
+        "totalSubmitters": 900
+    },
+    {
+        "year": 2018,
+        "round": "D",
+        "number": 3,
+        "title": "Funniest Word Search",
+        "solvedTest2": 22,
+        "solvedTest1": 113,
+        "didNotSolve": 70,
+        "totalSubmitters": 900
+    },
+    {
+        "year": 2018,
+        "round": "C",
+        "number": 1,
+        "title": "Planet Distance",
+        "solvedTest2": 569,
+        "solvedTest1": 71,
+        "didNotSolve": 7,
+        "totalSubmitters": 700
+    },
+    {
+        "year": 2018,
+        "round": "C",
+        "number": 2,
+        "title": "Fairies and Witches",
+        "solvedTest2": 118,
+        "solvedTest1": 125,
+        "didNotSolve": 31,
+        "totalSubmitters": 700
+    },
+    {
+        "year": 2018,
+        "round": "C",
+        "number": 3,
+        "title": "Kickstart Alarm",
+        "solvedTest2": 192,
+        "solvedTest1": 200,
+        "didNotSolve": 36,
+        "totalSubmitters": 700
+    },
+    {
+        "year": 2018,
+        "round": "B",
+        "number": 1,
+        "title": "No Nine",
+        "solvedTest2": 177,
+        "solvedTest1": 570,
+        "didNotSolve": 1,
+        "totalSubmitters": 800
+    },
+    {
+        "year": 2018,
+        "round": "B",
+        "number": 2,
+        "title": "Sherlock and the Bit Strings",
+        "solvedTest2": 19,
+        "solvedTest1": 258,
+        "didNotSolve": 144,
+        "totalSubmitters": 800
+    },
+    {
+        "year": 2018,
+        "round": "B",
+        "number": 3,
+        "title": "King's Circle",
+        "solvedTest2": 14,
+        "solvedTest1": 41,
+        "didNotSolve": 87,
+        "totalSubmitters": 800
+    },
+    {
+        "year": 2018,
+        "round": "A",
+        "number": 1,
+        "title": "Even Digits",
+        "solvedTest2": 775,
+        "solvedTest1": 548,
+        "didNotSolve": 5,
+        "totalSubmitters": 1350
+    },
+    {
+        "year": 2018,
+        "round": "A",
+        "number": 2,
+        "title": "Lucky Dip",
+        "solvedTest2": 253,
+        "solvedTest1": 131,
+        "didNotSolve": 291,
+        "totalSubmitters": 1350
+    },
+    {
+        "year": 2018,
+        "round": "A",
+        "number": 3,
+        "title": "Scrambled Words",
+        "solvedTest2": 31,
+        "solvedTest1": 215,
+        "didNotSolve": 116,
+        "totalSubmitters": 1350
     }
 ]
