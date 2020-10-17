@@ -41,6 +41,10 @@
 </head>
 
 <body>
+    You can click on the checkbox in the 'completed' column to help you remember the problems you've already finished.
+    This will be saved along long as you do not clear you browser storage.
+    Unfortunately, GoogleKickStart doesn't provide an easy way to see all the problems you have finished.
+    You have to check the problems one by one.
     <div id="problemStats">
     </div>
 
@@ -67,6 +71,12 @@
                 row.solvedAtLeast1Percent = 100 * (row.solvedTest2+row.solvedTest1) / row.totalSubmitters;
                 row.solvedTest1Percent = 100 * row.solvedTest1 / row.totalSubmitters;
                 row.didNotSolvePercent = 100 * row.didNotSolve / row.totalSubmitters;
+                
+                var settingName = row.year + "-" + row.round + "-" + row.number;
+                var loadedString = localStorage.getItem(settingName);
+                if (loadedString) {
+                    row.completed = loadedString;
+                }
             });
 
             //********* - START TABLE - *********
@@ -75,7 +85,7 @@
             var table = d3.select('#problemStats').append('table');
             var titles = ["year", "round", "number", "title",
                 "solvedAtLeast1Percent", "solvedTest2Percent", "solvedTest1Percent", "didNotSolvePercent",
-                "solvedTest2", "solvedTest1", "didNotSolve", "totalSubmitters"];
+                "solvedTest2", "solvedTest1", "didNotSolve", "totalSubmitters", "completed"];
             var headers = table.append('thead').append('tr')
                 .selectAll('th')
                 .data(titles).enter()
@@ -126,24 +136,37 @@
                     return titles.map(function (key, i) {
                         return {
                             'value': d[key],
-                            'name': d
+                            'name': key,
+                            'data': d
                         };
                     });
-                }).enter()
+                })
+                .enter()
                 .append('td')
-                .attr('data-th', function (d) {
-                    return d.name;
+                .attr('class', function (d) {
+                    return d.name + "Class";
                 })
                 .text(function (d) {
-                    console.log("typeof(" + d.value + "): " + typeof (d.value));
                     if (typeof (d.value) == "object") {
-                        console.log("Yippee it's an object");
                         return timeformat(d.value)
+                    } else if (d.name === "completed") {
                     } else {
                         return d.value
                     }
                 });
-
+            rows.selectAll(".completedClass")
+                .append("input")
+                .attr("checked", function (d) {
+                    if (d.value == "true")
+                        return true;
+                    else
+                        return undefined;
+                })
+                .attr("type", "checkbox")
+                .on("change", function(d, i, more) {
+                    var settingName = d.data.year + "-" + d.data.round + "-" + d.data.number;
+                    localStorage.setItem(settingName, more[0].checked);
+                });
             //********* - END TABLE - *********
         });
     </script>
