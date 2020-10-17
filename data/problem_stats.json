@@ -1,6 +1,46 @@
 [
     {
         "year": 2020,
+        "round": "F",
+        "number": 1,
+        "title": "ATM Queue",
+        "solvedTest2": 3509,
+        "solvedTest1": 1590,
+        "didNotSolve": 1065,
+        "totalSubmitters": 6200
+    },
+    {
+        "year": 2020,
+        "round": "F",
+        "number": 2,
+        "title": "Metal Harvest",
+        "solvedTest2": 2448,
+        "solvedTest1": 233,
+        "didNotSolve": 1249,
+        "totalSubmitters": 6200
+    },
+    {
+        "year": 2020,
+        "round": "F",
+        "number": 3,
+        "title": "Painters' Duel",
+        "solvedTest2": 346,
+        "solvedTest1": 1151,
+        "didNotSolve": 297,
+        "totalSubmitters": 6200
+    },
+    {
+        "year": 2020,
+        "round": "F",
+        "number": 4,
+        "title": "Yeetzhee",
+        "solvedTest2": 69,
+        "solvedTest1": 25,
+        "didNotSolve": 115,
+        "totalSubmitters": 6200
+    },
+    {
+        "year": 2020,
         "round": "E",
         "number": 1,
         "title": "Longest Arithmetic",
@@ -698,5 +738,435 @@
         "solvedTest1": 215,
         "didNotSolve": 116,
         "totalSubmitters": 1350
+    },
+    {
+        "year": 2017,
+        "round": "G",
+        "number": 1,
+        "title": "Huge Numbers",
+        "solvedTest2": 46,
+        "solvedTest1": 605,
+        "didNotSolve": 12,
+        "totalSubmitters": 1200
+    },
+    {
+        "year": 2017,
+        "round": "G",
+        "number": 2,
+        "title": "Cards Game",
+        "solvedTest2": 202,
+        "solvedTest1": 244,
+        "didNotSolve": 165,
+        "totalSubmitters": 1200
+    },
+    {
+        "year": 2017,
+        "round": "G",
+        "number": 3,
+        "title": "Matrix Cutting",
+        "solvedTest2": 226,
+        "solvedTest1": 257,
+        "didNotSolve": 55,
+        "totalSubmitters": 1200
+    },
+    {
+        "year": 2017,
+        "round": "F",
+        "number": 1,
+        "title": "Cake",
+        "solvedTest2": 1122,
+        "solvedTest1": 131,
+        "didNotSolve": 168,
+        "totalSubmitters": 1750
+    },
+    {
+        "year": 2017,
+        "round": "F",
+        "number": 2,
+        "title": "Kicksort",
+        "solvedTest2": 975,
+        "solvedTest1": 470,
+        "didNotSolve": 38,
+        "totalSubmitters": 1750
+    },
+    {
+        "year": 2017,
+        "round": "F",
+        "number": 3,
+        "title": "Dance Battle",
+        "solvedTest2": 831,
+        "solvedTest1": 135,
+        "didNotSolve": 217,
+        "totalSubmitters": 1750
+    },
+    {
+        "year": 2017,
+        "round": "F",
+        "number": 4,
+        "title": "Catch Them All",
+        "solvedTest2": 218,
+        "solvedTest1": 214,
+        "didNotSolve": 196,
+        "totalSubmitters": 1750
+    },
+    {
+        "year": 2017,
+        "round": "E",
+        "number": 1,
+        "title": "Trapezoid Counting",
+        "solvedTest2": 347,
+        "solvedTest1": 213,
+        "didNotSolve": 76,
+        "totalSubmitters": 1500
+    },
+    {
+        "year": 2017,
+        "round": "E",
+        "number": 2,
+        "title": "Copy & Paste",
+        "solvedTest2": 213,
+        "solvedTest1": 796,
+        "didNotSolve": 76,
+        "totalSubmitters": 1500
+    },
+    {
+        "year": 2017,
+        "round": "E",
+        "number": 3,
+        "title": "Blackhole",
+        "solvedTest2": 3,
+        "solvedTest1": 1225,
+        "didNotSolve": 22,
+        "totalSubmitters": 1500
+    },
+    {
+        "year": 2017,
+        "round": "D",
+        "number": 1,
+        "title": "Sightseeing",
+        "solvedTest2": 563,
+        "solvedTest1": 498,
+        "didNotSolve": 1,
+        "totalSubmitters": 1100
+    },
+    {
+        "year": 2017,
+        "round": "D",
+        "number": 2,
+        "title": "Sherlock and Matrix Game",
+        "solvedTest2": 15,
+        "solvedTest1": 208,
+        "didNotSolve": 273,
+        "totalSubmitters": 1100
+    },
+    {
+        "year": 2017,
+        "round": "D",
+        "number": 3,
+        "title": "Trash",
+        "solvedTest2": 9,
+        "solvedTest1": 36,
+        "didNotSolve": 44,
+        "totalSubmitters": 1100
+    },
+    {
+        "year": 2017,
+        "round": "C",
+        "number": 1,
+        "title": "Ambiguous Cipher",
+        "solvedTest2": 683,
+        "solvedTest1": 130,
+        "didNotSolve": 10,
+        "totalSubmitters": 850
+    },
+    {
+        "year": 2017,
+        "round": "C",
+        "number": 2,
+        "title": "X Squared",
+        "solvedTest2": 319,
+        "solvedTest1": 58,
+        "didNotSolve": 256,
+        "totalSubmitters": 850
+    },
+    {
+        "year": 2017,
+        "round": "C",
+        "number": 3,
+        "title": "Magical Thinking v2",
+        "solvedTest2": 149,
+        "solvedTest1": 421,
+        "didNotSolve": 28,
+        "totalSubmitters": 850
+    },
+    {
+        "year": 2017,
+        "round": "C",
+        "number": 4,
+        "title": "The 4M Corporation",
+        "solvedTest2": 60,
+        "solvedTest1": 49,
+        "didNotSolve": 70,
+        "totalSubmitters": 850
+    },
+    {
+        "year": 2017,
+        "round": "B",
+        "number": 1,
+        "title": "Math Encoder",
+        "solvedTest2": 411,
+        "solvedTest1": 409,
+        "didNotSolve": 0,
+        "totalSubmitters": 850
+    },
+    {
+        "year": 2017,
+        "round": "B",
+        "number": 2,
+        "title": "Center",
+        "solvedTest2": 97,
+        "solvedTest1": 93,
+        "didNotSolve": 234,
+        "totalSubmitters": 850
+    },
+    {
+        "year": 2017,
+        "round": "B",
+        "number": 3,
+        "title": "Christmas Tree",
+        "solvedTest2": 59,
+        "solvedTest1": 383,
+        "didNotSolve": 65,
+        "totalSubmitters": 850
+    },
+    {
+        "year": 2017,
+        "round": "A",
+        "number": 1,
+        "title": "Square Counting",
+        "solvedTest2": 524,
+        "solvedTest1": 899,
+        "didNotSolve": 2,
+        "totalSubmitters": 1500
+    },
+    {
+        "year": 2017,
+        "round": "A",
+        "number": 2,
+        "title": "Pattern Overlap",
+        "solvedTest2": 287,
+        "solvedTest1": 107,
+        "didNotSolve": 387,
+        "totalSubmitters": 1500
+    },
+    {
+        "year": 2017,
+        "round": "A",
+        "number": 3,
+        "title": "Two Cubes",
+        "solvedTest2": 100,
+        "solvedTest1": 152,
+        "didNotSolve": 88,
+        "totalSubmitters": 1500
+    },
+    {
+        "year": 2016,
+        "round": "E",
+        "number": 1,
+        "title": "Diwali lightings",
+        "solvedTest2": 1262,
+        "solvedTest1": 353,
+        "didNotSolve": 65,
+        "totalSubmitters": 1750
+    },
+    {
+        "year": 2016,
+        "round": "E",
+        "number": 2,
+        "title": "Beautiful Numbers",
+        "solvedTest2": 211,
+        "solvedTest1": 1218,
+        "didNotSolve": 94,
+        "totalSubmitters": 1750
+    },
+    {
+        "year": 2016,
+        "round": "E",
+        "number": 3,
+        "title": "Partioning Number",
+        "solvedTest2": 193,
+        "solvedTest1": 453,
+        "didNotSolve": 180,
+        "totalSubmitters": 1750
+    },
+    {
+        "year": 2016,
+        "round": "E",
+        "number": 4,
+        "title": "Sorting Array",
+        "solvedTest2": 2,
+        "solvedTest1": 3,
+        "didNotSolve": 38,
+        "totalSubmitters": 1750
+    },
+    {
+        "year": 2016,
+        "round": "D",
+        "number": 1,
+        "title": "Vote",
+        "solvedTest2": 913,
+        "solvedTest1": 447,
+        "didNotSolve": 66,
+        "totalSubmitters": 1550
+    },
+    {
+        "year": 2016,
+        "round": "D",
+        "number": 2,
+        "title": "Sitting",
+        "solvedTest2": 305,
+        "solvedTest1": 378,
+        "didNotSolve": 367,
+        "totalSubmitters": 1550
+    },
+    {
+        "year": 2016,
+        "round": "D",
+        "number": 3,
+        "title": "Codejamon Cipher",
+        "solvedTest2": 348,
+        "solvedTest1": 305,
+        "didNotSolve": 88,
+        "totalSubmitters": 1550
+    },
+    {
+        "year": 2016,
+        "round": "D",
+        "number": 4,
+        "title": "Stretch Rope",
+        "solvedTest2": 36,
+        "solvedTest1": 441,
+        "didNotSolve": 67,
+        "totalSubmitters": 1550
+    },
+    {
+        "year": 2016,
+        "round": "C",
+        "number": 1,
+        "title": "Monster Path",
+        "solvedTest2": 655,
+        "solvedTest1": 97,
+        "didNotSolve": 154,
+        "totalSubmitters": 1600
+    },
+    {
+        "year": 2016,
+        "round": "C",
+        "number": 2,
+        "title": "Safe Squares",
+        "solvedTest2": 621,
+        "solvedTest1": 839,
+        "didNotSolve": 17,
+        "totalSubmitters": 1600
+    },
+    {
+        "year": 2016,
+        "round": "C",
+        "number": 3,
+        "title": "Evaluation",
+        "solvedTest2": 552,
+        "solvedTest1": 73,
+        "didNotSolve": 218,
+        "totalSubmitters": 1600
+    },
+    {
+        "year": 2016,
+        "round": "C",
+        "number": 4,
+        "title": "Soldiers",
+        "solvedTest2": 24,
+        "solvedTest1": 82,
+        "didNotSolve": 80,
+        "totalSubmitters": 1600
+    },
+    {
+        "year": 2016,
+        "round": "B",
+        "number": 1,
+        "title": "Sherlock and Parentheses",
+        "solvedTest2": 2912,
+        "solvedTest1": 934,
+        "didNotSolve": 6,
+        "totalSubmitters": 3900
+    },
+    {
+        "year": 2016,
+        "round": "B",
+        "number": 2,
+        "title": "Sherlock and Watson Gym Secrets",
+        "solvedTest2": 268,
+        "solvedTest1": 1492,
+        "didNotSolve": 1251,
+        "totalSubmitters": 3900
+    },
+    {
+        "year": 2016,
+        "round": "B",
+        "number": 3,
+        "title": "Watson and Intervals",
+        "solvedTest2": 152,
+        "solvedTest1": 374,
+        "didNotSolve": 670,
+        "totalSubmitters": 3900
+    },
+    {
+        "year": 2016,
+        "round": "B",
+        "number": 4,
+        "title": "Sherlock and Permutation Sorting",
+        "solvedTest2": 15,
+        "solvedTest1": 29,
+        "didNotSolve": 183,
+        "totalSubmitters": 3900
+    },
+    {
+        "year": 2016,
+        "round": "A",
+        "number": 1,
+        "title": "Country Leader",
+        "solvedTest2": 1722,
+        "solvedTest1": 540,
+        "didNotSolve": 25,
+        "totalSubmitters": 2300
+    },
+    {
+        "year": 2016,
+        "round": "A",
+        "number": 2,
+        "title": "Rain",
+        "solvedTest2": 502,
+        "solvedTest1": 56,
+        "didNotSolve": 491,
+        "totalSubmitters": 2300
+    },
+    {
+        "year": 2016,
+        "round": "A",
+        "number": 3,
+        "title": "Jane's Flower Shop",
+        "solvedTest2": 319,
+        "solvedTest1": 684,
+        "didNotSolve": 261,
+        "totalSubmitters": 2300
+    },
+    {
+        "year": 2016,
+        "round": "A",
+        "number": 4,
+        "title": "Clash Royale",
+        "solvedTest2": 28,
+        "solvedTest1": 172,
+        "didNotSolve": 93,
+        "totalSubmitters": 2300
     }
 ]
