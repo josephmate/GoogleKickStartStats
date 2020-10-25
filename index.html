@@ -181,9 +181,12 @@
                     return d.name + "Class";
                 })
                 .text(function (d) {
-                    if (typeof (d.value) == "object") {
-                        return timeformat(d.value)
-                    } else if (d.name === "completed") {
+                    if (d.name === "completed") {
+                    } else if (d.name === "solvedAtLeast1Percent"
+                            || d.name === "solvedTest2Percent"
+                            || d.name === "solvedTest1Percent"
+                            || d.name === "didNotSolvePercent") {
+                        return d.value.toPrecision(3)
                     } else {
                         return d.value
                     }
