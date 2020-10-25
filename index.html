@@ -41,10 +41,31 @@
 </head>
 
 <body>
-    You can click on the checkbox in the 'completed' column to help you remember the problems you've already finished.
-    This will be saved along long as you do not clear you browser storage.
-    Unfortunately, GoogleKickStart doesn't provide an easy way to see all the problems you have finished.
-    You have to check the problems one by one.
+    Features:
+    <ol>
+        <li>Click on the checkbox in the 'Did you Complete It?' column to remember the problems you've already finished.
+            This will be saved as long as you do not clear your browser storage.</li>
+        <li>Click on the column headers to sort by that column.</li>
+    </ol>
+    Issues:
+    <ol>
+        <li>
+            Recently Google Kickstart started putting 3 test cases for the harder problems.
+            I treat the hardest test case as if it's Test Case 2 in the table for now.
+        </li>
+        <li>Anything else wrong? Please file it on <a href="https://github.com/josephmate/GoogleKickStartStats/issues">Github Issues</a>
+            or put together a <a href="https://github.com/josephmate/GoogleKickStartStats/pulls">Pull Request.</a></li>
+    </ol>
+    Motivation:
+    <p>
+        Unfortunately, Google KickStart does not provide an easy way to see all the problems you have finished.
+        You have to check the problems one by one.
+        Also they do not provide an easy way to see stats about all the problem on a single page.
+        You have to check the stats contest by contest.
+        Finally, their API is extremely inconvenient to extract data from.
+        You will need to reverse engineer the API responses.
+        As a result, I put together this page to help track the problems you completed and to give an idea which problems are harder.
+    </p>
     <div id="problemStats">
     </div>
 
@@ -83,29 +104,42 @@
 
             var sortAscending = true;
             var table = d3.select('#problemStats').append('table');
-            var titles = ["year", "round", "number", "title",
-                "solvedAtLeast1Percent", "solvedTest2Percent", "solvedTest1Percent", "didNotSolvePercent",
-                "solvedTest2", "solvedTest1", "didNotSolve", "totalSubmitters", "completed"];
+            var titles = [
+                { key: "year", displayName: "Year" },
+                { key: "round", displayName: "Round" },
+                { key: "number", displayName: "Problem Number" },
+                { key: "title", displayName: "Problem Title" },
+                { key: "solvedAtLeast1Percent", displayName: "Solved at Least Test 1 %" },
+                { key: "solvedTest2Percent", displayName: "Solved Test 2 %" },
+                { key: "solvedTest1Percent", displayName: "Solved Test 1 %" },
+                { key: "didNotSolvePercent", displayName: "Did Not Solve %" },
+                { key: "solvedTest2", displayName: "Num. Solved Test 2" },
+                { key: "solvedTest1", displayName: "Num. Solved Test 1" },
+                { key: "didNotSolve", displayName: "Num. Did Not Solve" },
+                { key: "totalSubmitters", displayName: "Approx. Submitters" },
+                { key: "completed", displayName: "Did you Complete It?" },
+            ];
             var headers = table.append('thead').append('tr')
                 .selectAll('th')
                 .data(titles).enter()
                 .append('th')
                 .text(function (d) {
-                    return d
+                    return d.displayName
                 })
                 .on('click', function (d) {
                     headers.attr('class', 'header');
-                    if (d == "round" || d == "title") { //these keys sort alphabetically
+                    var titleKey = d.key;
+                    if (titleKey == "round" || titleKey == "title") { //these keys sort alphabetically
                         // sorting alphabetically");
                         if (sortAscending) {
                             rows.sort(function (a, b) {
-                                return d3.ascending(a[d], b[d]);
+                                return d3.ascending(a[titleKey], b[titleKey]);
                             });
                             sortAscending = false;
                             this.className = 'aes';
                         } else {
                             rows.sort(function (a, b) {
-                                return d3.descending(a[d], b[d]);
+                                return d3.descending(a[titleKey], b[titleKey]);
                             });
                             sortAscending = true;
                             this.className = 'des';
@@ -114,13 +148,13 @@
                         if (sortAscending) {
                             //all other keys sort numerically including time
                             rows.sort(function (a, b) {
-                                return b[d] - a[d];
+                                return b[titleKey] - a[titleKey];
                             });
                             sortAscending = false;
                             this.className = 'aes';
                         } else {
                             rows.sort(function (a, b) {
-                                return a[d] - b[d];
+                                return a[titleKey] - b[titleKey];
                             });
                             sortAscending = true;
                             this.className = 'des';
@@ -135,8 +169,8 @@
                 .data(function (d) {
                     return titles.map(function (key, i) {
                         return {
-                            'value': d[key],
-                            'name': key,
+                            'value': d[key.key],
+                            'name': key.key,
                             'data': d
                         };
                     });
