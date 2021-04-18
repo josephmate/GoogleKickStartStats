@@ -1,4 +1,127 @@
 [
+   {
+        "year": 2021,
+        "round": "A",
+        "number": 1,
+        "title": "K-Goodness String",
+        "solvedTest2": 13336,
+        "solvedTest1": 40,
+        "didNotSolve": 6215,
+        "totalSubmitters": 19850
+    },
+    {
+        "year": 2021,
+        "round": "A",
+        "number": 2,
+        "title": "L Shaped Plots",
+        "solvedTest2": 4869,
+        "solvedTest1": 584,
+        "didNotSolve": 2473,
+        "totalSubmitters": 19850
+    },
+    {
+        "year": 2021,
+        "round": "A",
+        "number": 3,
+        "title": "Rabbit House",
+        "solvedTest2": 2807,
+        "solvedTest1": 445,
+        "didNotSolve": 3749,
+        "totalSubmitters": 19850
+    },
+    {
+        "year": 2021,
+        "round": "A",
+        "number": 4,
+        "title": "Checksum",
+        "solvedTest3": 116,
+        "solvedTest2": 8,
+        "solvedTest1": 438,
+        "didNotSolve": 1733,
+        "totalSubmitters": 19850
+    },
+    {
+        "year": 2020,
+        "round": "H",
+        "number": 1,
+        "title": "Retype",
+        "solvedTest2": 4071,
+        "solvedTest1": 192,
+        "didNotSolve": 338,
+        "totalSubmitters": 4700
+    },
+    {
+        "year": 2020,
+        "round": "H",
+        "number": 2,
+        "title": "Boring Numbers",
+        "solvedTest2": 805,
+        "solvedTest1": 2139,
+        "didNotSolve": 474,
+        "totalSubmitters": 4700
+    },
+    {
+        "year": 2020,
+        "round": "H",
+        "number": 3,
+        "title": "Rugby",
+        "solvedTest2": 320,
+        "solvedTest1": 328,
+        "didNotSolve": 598,
+        "totalSubmitters": 4700
+    },
+    {
+        "year": 2020,
+        "round": "H",
+        "number": 4,
+        "title": "Friends",
+        "solvedTest2": 626,
+        "solvedTest1": 461,
+        "didNotSolve": 382,
+        "totalSubmitters": 4700
+    },
+    {
+        "year": 2020,
+        "round": "G",
+        "number": 1,
+        "title": "Kick_Start",
+        "solvedTest2": 5780,
+        "solvedTest1": 531,
+        "didNotSolve": 1495,
+        "totalSubmitters": 8100
+    },
+    {
+        "year": 2020,
+        "round": "G",
+        "number": 2,
+        "title": "Maximum Coins",
+        "solvedTest2": 5590,
+        "solvedTest1": 425,
+        "didNotSolve": 454,
+        "totalSubmitters": 8100
+    },
+    {
+        "year": 2020,
+        "round": "G",
+        "number": 3,
+        "title": "Combination Lock",
+        "solvedTest3": 606,
+        "solvedTest2": 1474,
+        "solvedTest1": 1625,
+        "didNotSolve": 1096,
+        "totalSubmitters": 8100
+    },
+    {
+        "year": 2020,
+        "round": "G",
+        "number": 4,
+        "title": "Merge Cards",
+        "solvedTest3": 248,
+        "solvedTest2": 105,
+        "solvedTest1": 699,
+        "didNotSolve": 307,
+        "totalSubmitters": 8100
+    },
     {
         "year": 2020,
         "round": "F",
