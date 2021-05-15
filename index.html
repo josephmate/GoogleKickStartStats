@@ -129,8 +129,8 @@
                 .on('click', function (d) {
                     headers.attr('class', 'header');
                     var titleKey = d.key;
-                    if (titleKey == "round" || titleKey == "title") { //these keys sort alphabetically
-                        // sorting alphabetically");
+                    if (titleKey == "round" || titleKey == "title") {
+                        // sorting alphabetically
                         if (sortAscending) {
                             rows.sort(function (a, b) {
                                 return d3.ascending(a[titleKey], b[titleKey]);
@@ -162,8 +162,11 @@
                     }
                 });
 
-            var rows = table.append('tbody').selectAll('tr')
-                .data(data).enter()
+            var rows = table
+                .append('tbody')
+                .selectAll('tr')
+                .data(data)
+                .enter()
                 .append('tr');
             rows.selectAll('td')
                 .data(function (d) {
@@ -182,13 +185,14 @@
                 })
                 .text(function (d) {
                     if (d.name === "completed") {
+                    } else if (d.name === "title") {
                     } else if (d.name === "solvedAtLeast1Percent"
                             || d.name === "solvedTest2Percent"
                             || d.name === "solvedTest1Percent"
                             || d.name === "didNotSolvePercent") {
-                        return d.value.toPrecision(3)
+                        return d.value.toPrecision(3);
                     } else {
-                        return d.value
+                        return d.value;
                     }
                 });
             rows.selectAll(".completedClass")
@@ -203,6 +207,17 @@
                 .on("change", function(d, i, more) {
                     var settingName = d.data.year + "-" + d.data.round + "-" + d.data.number;
                     localStorage.setItem(settingName, more[0].checked);
+                });
+            rows.selectAll(".titleClass")
+                .append("a")
+                .attr("href", function (d) {
+                    if (d.data.url)
+                        return d.data.url;
+                    else
+                        return undefined;
+                })
+                .text(function (d) {
+                    return d.value;
                 });
             //********* - END TABLE - *********
         });
