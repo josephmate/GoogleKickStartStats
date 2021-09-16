@@ -1,6 +1,51 @@
 [
     {
         "year": 2021,
+        "round": "E",
+        "number": 1,
+        "title": "Shuffled Anagrams",
+        "solvedTest2": 1594,
+        "solvedTest1": 1767,
+        "didNotSolve": 3261,
+        "totalSubmitters": 6950,
+        "url": "https://codingcompetitions.withgoogle.com/kickstart/round/000000000043585c/000000000085a152"
+    },
+    {
+        "year": 2021,
+        "round": "E",
+        "number": 2,
+        "title": "Birthday Cake",
+        "solvedTest2": 64,
+        "solvedTest1": 546,
+        "didNotSolve": 535,
+        "totalSubmitters": 6950,
+        "url": "https://codingcompetitions.withgoogle.com/kickstart/round/000000000043585c/000000000085a285"
+    },
+    {
+        "year": 2021,
+        "round": "E",
+        "number": 3,
+        "title": " Palindromic Crossword",
+        "solvedTest2": 908,
+        "solvedTest1": 164,
+        "didNotSolve": 229,
+        "totalSubmitters": 6950,
+        "url": "https://codingcompetitions.withgoogle.com/kickstart/round/000000000043585c/0000000000859dcd"
+    },
+    {
+        "year": 2021,
+        "round": "E",
+        "number": 4,
+        "title": "Increasing Sequence Card Game",
+        "solvedTest3": 505,
+        "solvedTest2": 263,
+        "solvedTest1": 484,
+        "didNotSolve": 1010,
+        "totalSubmitters": 6950,
+        "url": "https://codingcompetitions.withgoogle.com/kickstart/round/000000000043585c/000000000085a709"
+    },
+    {
+        "year": 2021,
         "round": "D",
         "number": 1,
         "title": "Arithmetic Square",
