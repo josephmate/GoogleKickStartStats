@@ -1,14 +1,48 @@
 [
     {
         "year": 2021,
-        "round": "E",
+        "round": "F",
         "number": 1,
-        "title": "Shuffled Anagrams",
-        "solvedTest2": 1594,
-        "solvedTest1": 1767,
-        "didNotSolve": 3261,
-        "totalSubmitters": 6950,
-        "url": "https://codingcompetitions.withgoogle.com/kickstart/round/000000000043585c/000000000085a152"
+        "title": "Trash Bins",
+        "solvedTest2": 6588,
+        "solvedTest1": 2218,
+        "didNotSolve": 1951,
+        "totalSubmitters": 10900,
+        "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000435bae/0000000000887c32"
+    },
+    {
+        "year": 2021,
+        "round": "F",
+        "number": 2,
+        "title": "Festival",
+        "solvedTest2": 1195,
+        "solvedTest1": 3522,
+        "didNotSolve": 1188,
+        "totalSubmitters": 10900,
+        "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000435bae/0000000000887dba"
+    },
+    {
+        "year": 2021,
+        "round": "F",
+        "number": 3,
+        "title": "Star Trappers",
+        "solvedTest3": 176,
+        "solvedTest2": 52,
+        "solvedTest1": 63,
+        "didNotSolve": 1041,
+        "totalSubmitters": 10900,
+        "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000435bae/0000000000888d45"
+    },
+    {
+        "year": 2021,
+        "round": "F",
+        "number": 4,
+        "title": "Graph Travel",
+        "solvedTest2": 499,
+        "solvedTest1": 297,
+        "didNotSolve": 203,
+        "totalSubmitters": 10900,
+        "url": "https://codingcompetitions.withgoogle.com/kickstart/round/0000000000435bae/0000000000888764"
     },
     {
         "year": 2021,
